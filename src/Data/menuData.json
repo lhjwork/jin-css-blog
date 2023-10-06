@@ -1,0 +1,32 @@
+[
+  {
+    "sysId": "test1",
+    "menuLevel": "1",
+    "menuId": "menu01",
+    "menuNm": "menu01",
+    "menuPath": "menu01>menu001",
+    "menuSort": "10",
+    "pmenuId": "menu01",
+    "useCd": "N"
+  },
+  {
+    "sysId": "test2",
+    "menuLevel": "2",
+    "menuId": "menu02",
+    "menuNm": "menu02",
+    "menuPath": "menu02>menu002",
+    "menuSort": "10",
+    "pmenuId": "menu02",
+    "useCd": "N"
+  },
+  {
+    "sysId": "test3",
+    "menuLevel": "3",
+    "menuId": "menu03",
+    "menuNm": "menu03",
+    "menuPath": "menu03>menu003",
+    "menuSort": "10",
+    "pmenuId": "menu03",
+    "useCd": "N"
+  }
+]
