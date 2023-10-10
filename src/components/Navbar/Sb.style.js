@@ -6,9 +6,9 @@ export const SbContainer = styled.div`
   min-width: 16rem;
   width: auto;
   height: auto;
-  min-height: 70vh;
+  min-height: 100vh;
   font-size: 14px;
-  background-color: red;
+  background-color: #f6f6f2;
   position: fixed;
   left: 0;
   top: 0;
@@ -26,7 +26,7 @@ export const SbTitle = styled.div`
   padding-left: ${(props) => props.depth * 20};
   height: 32px;
   &:hover {
-    background-color: #f6f6f2;
+    background-color: #f1f3f4;
     cursor: pointer;
     border-radius: solid 5px;
   }
