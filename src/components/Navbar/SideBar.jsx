@@ -1,6 +1,7 @@
 import React from "react";
-import Sbitem from "./Sbitem";
+import SbItem from "./SbItem";
 import menuData from "../../Data/menuData.json";
+import { SbContainer } from "./Sb.style";
 
 const SideBar = ({ itmes }) => {
   const nest = (menuData, menuId = "menuId", link = "pmenuId") =>
@@ -11,11 +12,11 @@ const SideBar = ({ itmes }) => {
   const tree = nest(menuData);
   console.log("nest", tree);
   return (
-    <div>
+    <SbContainer>
       {tree.map((subItem, index) => (
-        <Sbitem item={subItem} key={index} />
+        <SbItem item={subItem} key={index} />
       ))}
-    </div>
+    </SbContainer>
   );
 };
 

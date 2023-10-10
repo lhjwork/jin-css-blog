@@ -1,18 +1,19 @@
 import React from "react";
+import { SbTitle, SbSub, SbLink } from "./Sb.style";
 
-const Sbitem = ({ item }) => {
+const SbItem = ({ item, depth = 0 }) => {
   return (
     <div>
-      <div>
-        {item.menuNm}
-        <div>
-          {item.childrens.map((child) => (
-            <Sbitem item={child} />
-          ))}
-        </div>
-      </div>
+      <SbTitle depth={depth}>
+        [{depth}]{item.menuNm}
+      </SbTitle>
+      <SbSub>
+        {item.childrens.map((child) => (
+          <SbItem item={child} depth={depth + 1} />
+        ))}
+      </SbSub>
     </div>
   );
 };
 
-export default Sbitem;
+export default SbItem;
