@@ -1,5 +1,6 @@
 import React from "react";
-import { SbTitle, SbSub, SbLink } from "./Sb.style";
+import { SbTitle, SbSub } from "./Sb.style";
+import DethItem from "./DethItem";
 
 const SbItem = ({ item, depth = 0 }) => {
   return (
@@ -8,9 +9,9 @@ const SbItem = ({ item, depth = 0 }) => {
         [{depth}]{item.menuNm}
       </SbTitle>
       <SbSub>
-        {item.childrens.map((child) => (
-          <SbItem item={child} depth={depth + 1} />
-        ))}
+        {item.childrens.map((child) => {
+          return <DethItem item={child} depth={depth + 2} />;
+        })}
       </SbSub>
     </div>
   );
