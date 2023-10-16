@@ -1,27 +1,39 @@
 [
   {
-    "sysId": "test1",
-    "menuId": "STW0110",
-    "menuNm": "menu01",
+    "RootId": "css01",
+    "menuId": "css0101",
+    "menuNm": "c0101",
+    "RootTitle": "home",
     "rootRouting": "/",
-    "pmenuId": "STW01",
-    "useCd": "N",
+    "openValue": false,
     "childrens": [
       {
-        "sysId": "test",
+        "navId": "css010001",
         "menuId": "home01",
         "menuTitle": "home",
-        "routing": "/",
-        "pmenuId": "STW0110",
-        "useCd": "N"
+        "routing": "/"
       },
       {
-        "sysId": "test2",
+        "navId": "css0100016",
+        "menuId": "background01",
+        "menuTitle": "background",
+        "routing": "/background"
+      }
+    ]
+  },
+  {
+    "RootId": "test01",
+    "menuId": "test0101",
+    "menuNm": "t0101",
+    "RootTitle": "test",
+    "rootRouting": "/",
+    "openValue": false,
+    "childrens": [
+      {
+        "navId": "test01002",
         "menuId": "test01",
         "menuTitle": "testPage",
-        "routing": "test",
-        "pmenuId": "STW0110",
-        "useCd": "N"
+        "routing": "test"
       }
     ]
   }

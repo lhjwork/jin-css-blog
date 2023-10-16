@@ -4,6 +4,7 @@ import Home from "../pages/home/Home";
 import Root from "../pages/Root";
 import NotFound from "../pages/error/NotFound";
 import TestPage from "../pages/test/TestPage";
+import CssBackground from "../pages/background/CssBackground";
 
 export const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ export const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "test", element: <TestPage /> },
+      { path: "background", element: <CssBackground /> },
     ],
   },
 ]);

@@ -7,7 +7,14 @@ const SideBar = ({ itmes }) => {
   return (
     <SbContainer>
       {menuData.map((subItem, index) => (
-        <SbItem item={subItem} key={index} />
+        <SbItem
+          item={subItem}
+          key={index}
+          onOpen={subItem.openValue}
+          onClick={() => {
+            console.log("test");
+          }}
+        />
       ))}
     </SbContainer>
   );
