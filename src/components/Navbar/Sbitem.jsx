@@ -6,7 +6,7 @@ const SbItem = ({ item, depth = 0 }) => {
   return (
     <div>
       <SbTitle depth={depth}>
-        [{depth}]{item.RootTitle}
+        [{item.number}] - {item.RootTitle}
       </SbTitle>
       <SbSub>
         {item.childrens.map((child) => {

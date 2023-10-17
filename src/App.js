@@ -1,13 +1,6 @@
 import React from "react";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
-import Home from "./pages/home/Home";
-import Root from "./pages/Root";
-import NotFound from "./pages/error/NotFound";
+import { RouterProvider } from "react-router-dom";
+
 import { router } from "./Router/RootRouter";
 const App = () => {
   return (

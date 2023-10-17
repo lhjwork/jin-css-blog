@@ -36,12 +36,13 @@ body {
   align-items: center;
   font-size: 1.2rem;
   accent-color: var(--color-accent);
-  background: rgba(2, 123, 196, 1);
+  color: var(--color-text);
+  /* background: rgba(2, 123, 196, 1);
   background: linear-gradient(
     90deg,
     rgba(2, 123, 193, 1) 56%,
     rgba(120, 120, 120, 1) 100%
-  );
+  ); */
 }
 
 ul {

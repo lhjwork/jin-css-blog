@@ -3,17 +3,16 @@ import { Link } from "react-router-dom";
 
 //사이드바 전체를 감싸는 div
 export const SbContainer = styled.div`
-  min-width: 13rem;
-  width: auto;
+  width: 13rem;
   height: auto;
   min-height: 100vh;
   font-size: 14px;
   background-color: #f6f6f2;
-  flex: 1;
-  /* padding-left: 20px;
+  /* flex: 1; */
+  padding-left: 20px;
   position: fixed;
   left: 0;
-  top: 0; */
+  top: 0;
 `;
 
 // SbItem에서 하위메뉴들을 묶어줄 div
@@ -26,7 +25,8 @@ export const SbTitle = styled.div`
   display: flex;
   align-items: center;
   padding-left: ${(props) => props.depth * 20 + "px"};
-  height: 32px;
+  padding-top: 10px;
+
   &:hover {
     background-color: #f1f3f4;
     cursor: pointer;
