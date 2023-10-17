@@ -1,7 +1,8 @@
 import React from "react";
+import { ViewWrapper } from "../../components/commons/Common.style";
 
 const Home = () => {
-  return <div>Home</div>;
+  return <ViewWrapper>Home</ViewWrapper>;
 };
 
 export default Home;

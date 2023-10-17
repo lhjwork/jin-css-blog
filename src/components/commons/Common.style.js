@@ -14,3 +14,9 @@ export const ViewCetnterWrapper = styled.div`
   padding: 50px 0;
   margin-left: 13rem;
 `;
+
+export const ViewWrapper = styled.div`
+  width: 89vw;
+  height: 100vh;
+  margin-left: 13rem;
+`;
