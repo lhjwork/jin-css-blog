@@ -21,6 +21,13 @@
         "menuTitle": "CSS3 - 16 [background] 배경지정하기 image, repeat, position, IR-image replacement",
         "routing": "/background",
         "number": "2"
+      },
+      {
+        "navId": "css0100017",
+        "menuId": "background02",
+        "menuTitle": "[background] 글씨를 배경으로 교체하기, IR 기법, image replacement",
+        "routing": "/background2",
+        "number": "3"
       }
     ]
   },

@@ -1,0 +1,47 @@
+.center {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+}
+.li_tag a {
+  background-image: url(img/tab_sprites.gif);
+
+  width: 108px;
+  height: 32px;
+  /* a tag는 inline 요소이다. */
+  display: block;
+  text-indent: -9999em;
+}
+
+.li_tag:nth-child(1) a {
+  background-position: 0 0;
+  &:hover {
+    background-position: 0 -32px;
+  }
+}
+
+.li_tag:nth-child(2) a {
+  background-position: -107px 0;
+  &:hover {
+    background-position: -107px -32px;
+  }
+}
+
+.li_tag:nth-child(3) a {
+  background-position: -214px 0;
+  &:hover {
+    background-position: -214px -32px;
+  }
+}
+
+/*  ------------------------------------------------------------------------------------- */
+
+.body {
+  width: 600px;
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+
+  font-size: 12px;
+  text-align: justify;
+  line-height: 1.6;
+}

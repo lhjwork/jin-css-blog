@@ -5,6 +5,7 @@ import Root from "../pages/Root";
 import NotFound from "../pages/error/NotFound";
 import TestPage from "../pages/test/TestPage";
 import Background from "../pages/background/Background";
+import ImgReplacement from "../pages/ImgReplacement/ImgReplacement";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -14,6 +15,7 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "test", element: <TestPage /> },
       { path: "background", element: <Background /> },
+      { path: "background2", element: <ImgReplacement /> },
     ],
   },
 ]);
