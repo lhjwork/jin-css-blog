@@ -2,11 +2,23 @@ import React from "react";
 import { ViewCetnterWrapper } from "../../components/commons/Common.style";
 import styles from "./boxModel.module.css";
 import boxModelAllExplain from "./img/content_size.png";
+import p_height from "./img/p_height.png";
 const BoxModel = () => {
   return (
     <ViewCetnterWrapper>
-      <p>일반 적으로 content는 padding 안쪽의 파란부분을 말한다.</p>
+      <p>일반적으로 content는 padding 안쪽의 파란부분을 말한다.</p>
       <img src={boxModelAllExplain} className={styles.boxModelEx} />
+      <hr />
+      <h3 style={{ marginTop: "50px" }}>
+        paragraph의 높이(height)는 안주는게 좋다. 아래 처럼 자연스럽게 되지
+        않는다.
+      </h3>
+      <img src={p_height} className={styles.p_height} />
+      <div>
+        border, padding, margin -- 1 : 사방, 2 : 상하 좌우, 3: 상 좌우 하, 4 :
+        상 우 하 좌
+      </div>
+      <div>border-radius의 경우 좌상을 기준으로 생각하면 된다.</div>
       <div className={styles.boxmodel}>
         <p>
           Pellentesque habitant morbi tristique senectus et netus et malesuada
