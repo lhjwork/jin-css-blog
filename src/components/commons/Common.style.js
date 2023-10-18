@@ -20,3 +20,7 @@ export const ViewWrapper = styled.div`
   height: 100vh;
   margin-left: 13rem;
 `;
+
+export const MarginTopBottom20Div = styled.div`
+  margin-top: 20px;
+`;
