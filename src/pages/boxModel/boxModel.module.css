@@ -29,6 +29,7 @@ body {
   margin: 100px auto;
   /* inline element을 우측에 두기 위해서 둠  */
   display: inline-block;
+  /* 모든 tag는 왼쪽 상단으로 가려는 속성이 기본으로 되어있다. 그런데  */
 }
 
 .circle {
