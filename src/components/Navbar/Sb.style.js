@@ -9,7 +9,7 @@ export const SbContainer = styled.div`
   font-size: 14px;
   background-color: #f6f6f2;
   /* flex: 1; */
-  padding-left: 20px;
+  padding: 0 20px;
   position: fixed;
   left: 0;
   top: 0;

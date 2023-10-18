@@ -24,10 +24,17 @@
       },
       {
         "navId": "css0100017",
-        "menuId": "background02",
+        "menuId": "boxmodel",
         "menuTitle": "[background] 글씨를 배경으로 교체하기, IR 기법, image replacement",
         "routing": "/background2",
         "number": "3"
+      },
+      {
+        "navId": "css010001821",
+        "menuId": "boxmodel1821",
+        "menuTitle": "boxmodel 18 ~ 21",
+        "routing": "/boxmodel",
+        "number": "4"
       }
     ]
   },
