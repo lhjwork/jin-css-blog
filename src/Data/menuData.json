@@ -55,11 +55,18 @@
         "number": "1"
       },
       {
-        "navId": "grid0102",
-        "menuId": "grid01",
-        "menuTitle": "Gird_2 비정형 레이아웃, 그리드에서 벗어나 자유롭게 레이아웃을 잡자! display:grid",
+        "navId": "grid0103",
+        "menuId": "grid02",
+        "menuTitle": "Gird_2 너비 단위 fraction FR, repeat 설명",
         "routing": "/grid/2",
         "number": "2"
+      },
+      {
+        "navId": "grid0103",
+        "menuId": "grid02",
+        "menuTitle": "Gird_3 비정형 레이아웃, 그리드에서 벗어나 자유롭게 레이아웃을 잡자! display:grid",
+        "routing": "/grid/3",
+        "number": "3"
       }
     ]
   },

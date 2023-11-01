@@ -7,7 +7,9 @@ import TestPage from "../pages/test/TestPage";
 import Background from "../pages/background/Background";
 import ImgReplacement from "../pages/ImgReplacement/ImgReplacement";
 import BoxModel from "../pages/boxModel/BoxModel";
-import Grid from "../pages/grid/Grid";
+import Grid_1 from "../pages/grid/Grid_1";
+import Grid_2 from "../pages/grid/Grid_2";
+import Grid_3 from "../pages/grid/Grid_3";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +27,10 @@ export const router = createBrowserRouter([
     path: "/grid",
     element: <Root />,
     errorElement: <NotFound />,
-    children: [{ path: "1", element: <Grid /> }],
+    children: [
+      { path: "1", element: <Grid_1 /> },
+      { path: "2", element: <Grid_2 /> },
+      { path: "3", element: <Grid_3 /> },
+    ],
   },
 ]);
