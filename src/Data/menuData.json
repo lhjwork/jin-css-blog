@@ -39,6 +39,31 @@
     ]
   },
   {
+    "RootId": "Grid01",
+    "menuId": "Grid101",
+    "menuNm": "grid01",
+    "RootTitle": "Grid",
+    "rootRouting": "/grid",
+    "openValue": false,
+    "number": "2",
+    "childrens": [
+      {
+        "navId": "grid0101",
+        "menuId": "grid01",
+        "menuTitle": "Gird_1 비정형 레이아웃, 그리드에서 벗어나 자유롭게 레이아웃을 잡자! display:grid",
+        "routing": "/grid/1",
+        "number": "1"
+      },
+      {
+        "navId": "grid0102",
+        "menuId": "grid01",
+        "menuTitle": "Gird_2 비정형 레이아웃, 그리드에서 벗어나 자유롭게 레이아웃을 잡자! display:grid",
+        "routing": "/grid/2",
+        "number": "2"
+      }
+    ]
+  },
+  {
     "RootId": "test01",
     "menuId": "test0101",
     "menuNm": "t0101",

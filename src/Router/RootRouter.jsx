@@ -7,6 +7,7 @@ import TestPage from "../pages/test/TestPage";
 import Background from "../pages/background/Background";
 import ImgReplacement from "../pages/ImgReplacement/ImgReplacement";
 import BoxModel from "../pages/boxModel/BoxModel";
+import Grid from "../pages/grid/Grid";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -19,5 +20,11 @@ export const router = createBrowserRouter([
       { path: "background2", element: <ImgReplacement /> },
       { path: "boxmodel", element: <BoxModel /> },
     ],
+  },
+  {
+    path: "/grid",
+    element: <Root />,
+    errorElement: <NotFound />,
+    children: [{ path: "1", element: <Grid /> }],
   },
 ]);
